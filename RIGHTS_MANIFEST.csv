@@ -1,0 +1,10 @@
+material,public_scope,rights,verification,retained_conditions,release_action
+"Own documents, figures, derived numerical presentation",manuscript/; figures/; data/derived/,AUTHOR-APPROVED CC BY 4.0,Author confirmed ownership/publication authority and intended license terms on 2026-11-03,Author-approved future release terms; no public release yet; original third-party rights unaffected,No publication until separately authorized DOI/tag/release stage
+Own scripts / historical analysis code,code/,AUTHOR-APPROVED MIT,Author confirmed ownership/publication authority and intended license terms on 2026-11-03,Author-approved future release terms; no public release yet; original third-party rights unaffected,No publication until separately authorized DOI/tag/release stage
+wwPDB source CIFs / coordinate derivatives,data/frozen/coordinates/9GI*.cif; normalized/9GI*; hydrogenated/9GIV*,CC0-1.0,Verified archive usage policy,Original entry authors/source cited,No source-rights blocker identified
+Atlas fixed CIF / derivatives,data/frozen/*/O95563*; hydrogenated/Boltz*,MIT,Fixed commit license and exact CIF freshly retrieved,Retain licenses/Atlas_MIT.txt and source commit,No contrary per-file notice found
+AFDB/NVIDIA CIF / derivatives,data/frozen/*/AF-*; hydrogenated/AF*,CC-BY-4.0,Explicit CIF usage category + AFDB policy,"Preserve source attribution, disclaimer, version and changes",No source-rights blocker identified
+wwPDB extracted quality scalars,data/results/wwPDB*; residue_validation*; local_pair_quality*,Factual extracted values with source attribution,Original reports omitted,Link original entry/report; no claim report copyright is relicensed,Report originals excluded
+Fonts embedded in PDF,manuscript/*.pdf,DejaVu / Bitstream Vera notice,Installed font license retained,No raw TTF copied,licenses/DejaVu_Font_License.txt
+"Third-party papers/SI/validation PDFs, weights/MSAs",EXCLUDED,Not assessed for redistribution,Excluded,Cite/link only,No public copies
+Saved AF PAE,EXCLUDED,CC-BY-4.0 source,Not used in any published endpoint,Source hash and decision retained,provenance/PAE_DECISION.json

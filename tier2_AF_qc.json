@@ -1,0 +1,112 @@
+[
+  {
+    "structure": "AF",
+    "input_sha256": "939e38881a6661b9a72a87dfa40405aa72cb268d97f93364ec25da70602b04f5",
+    "status": "PASS",
+    "detected_missing_residues": "{}",
+    "missing_atoms_and_terminals": [
+      [
+        "B",
+        "127",
+        "LYS",
+        [
+          "OXT"
+        ]
+      ],
+      [
+        "A",
+        "136",
+        "SER",
+        [
+          "OXT"
+        ]
+      ]
+    ],
+    "repair_heavy_max_shift_A": 0.0,
+    "added_heavy_atoms": [
+      [
+        "A",
+        "136",
+        "SER",
+        "OXT"
+      ],
+      [
+        "B",
+        "127",
+        "LYS",
+        "OXT"
+      ]
+    ],
+    "original_heavy_count": 2070,
+    "hydrogenation_heavy_max_shift_A": 2.785601702085489e-06,
+    "hydrogen_count": 2094,
+    "net_charge_e": 20.00000000000001,
+    "forcefield_particles": 4166,
+    "charge_by_residue_type": {
+      "ASP": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "GLU": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "LYS": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        -0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ARG": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "HIS": [
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    "tier2_triplet_count": 1,
+    "tier2_unique_residue_pairs": 1,
+    "derived_sha256": "cea3b2765ec579bee9aacd6b8c77aa95fd3511ea259366ffaefffe6ca662fdbe"
+  }
+]

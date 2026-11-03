@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checks": 263,
+  "recomputed": [
+    "H1 local-axis proxies and flags",
+    "H2/H3 within-structure proxies",
+    "30 local residue pairs",
+    "Tier0/1 all-observed normalized atom screens"
+  ],
+  "saved_output_checks": [
+    "Tier2 five triplets against rounded saved hydrogenated coordinates",
+    "FreeSASA arithmetic only",
+    "15 DockQ scalar/stdout consistency"
+  ],
+  "not_rerun": [
+    "DockQ engine",
+    "FreeSASA engine",
+    "OpenMM/PDBFixer hydrogen placement",
+    "cryo-EM map refinement"
+  ],
+  "Tier2_NOT_RUN": [
+    "9GIX",
+    "9GIW",
+    "9GIY"
+  ]
+}

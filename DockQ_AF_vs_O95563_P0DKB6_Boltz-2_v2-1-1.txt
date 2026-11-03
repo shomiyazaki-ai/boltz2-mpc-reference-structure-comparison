@@ -1,0 +1,12 @@
+Historical numerical stdout excerpt. Model/native identities are in the filename and canonical CSV.
+EXIT: 0
+Total DockQ over 1 native interfaces: 0.437 with AB:AB model:native mapping
+Native chains: A, B
+	Model chains: A, B
+	DockQ: 0.437
+	iRMSD: 2.790
+	LRMSD: 13.349
+	fnat: 0.797
+	fnonnat: 0.141
+	F1: 0.827
+	clashes: 0

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "values": 105,
+  "max_abs_difference_A": 2.2870594307278225e-14,
+  "checks": 212,
+  "method": "separate regex CA parser + Horn quaternion eigenproblem; no production module imported",
+  "python": "3.12.14",
+  "numpy": "2.3.5"
+}

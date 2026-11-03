@@ -1,0 +1,17 @@
+analysis,execution_status,production_verification,boundary
+Primary 70 RMSDs,COMPLETE,Fresh coordinate recomputation + independent quaternion parser/fit,Four Boltz/reference + six experimental/reference pairs; seven metrics each
+Exploratory AF 35 RMSDs,COMPLETE,Fresh coordinate recomputation + independent quaternion parser/fit,One independently sourced fixed structure; not a model benchmark
+Experimental contacts / masks,COMPLETE,Fresh all-row replay,Strict <5/<4 Å; 73/62/198 common sets
+H1 local-axis proxy,COMPLETE WITH FLAG,Fresh geometry and flag replay,9GIX MPC2 H1_NUMERIC_SENSITIVITY_GT5 retained
+Historical short-window H1 PCA,FAIL / REJECTED,Original negative qualification table preserved,Not used as the accepted H1 endpoint
+H2/H3 within-structure angles,COMPLETE,Fresh angle/anisotropy replay,Not a between-state bundle rotation
+H2/H3 between-state bundle rotation,NOT QUALIFIED / NOT RUN,Status and protocol checked,No numeric endpoint substituted
+Thirty predefined local pairs,COMPLETE,Fresh all-row CA/heavy distance replay,Original CIFs; not normalized rounding
+Tier0 functional-atom salt candidates,COMPLETE,Fresh all-observed normalized-PDB replay,Four instances; two distinct pair types
+Tier1 D/A proximity,COMPLETE,Fresh all-observed normalized-PDB replay,21 atom rows; eight distinct pair types; not proven hydrogen bonds
+Tier2 Boltz / 9GIV / AF,HISTORICAL PASS,Five triplets checked against saved rounded H snapshots; engine NOT RERUN,Unrounded heavy-preservation gate remains historical evidence
+Tier2 9GIX / 9GIW / 9GIY,NOT RUN,Historical gate and displacement diagnostics inspected,Not zero candidates; threshold not relaxed
+DockQ 15 comparisons,HISTORICAL COMPLETE,Parsed scalars checked against saved stdout; engine NOT RERUN,Directional; standard iRMSD distinct from fixed 73 endpoint
+FreeSASA six structures,HISTORICAL COMPLETE,"Saved arithmetic, coverage and radius records checked; engine NOT RERUN",Heavy-atom coverage differs
+wwPDB experimental quality,SAVED SCALAR EXTRACTION,Source/revision metadata and extracted scalar consistency inspected,No cryo-EM map engine rerun or hydrogen-level experimental proof
+Prediction generation / matched benchmark,NOT RUN / NOT ESTABLISHED,Individual seed/MSA/template/selection traces incomplete,No new prediction and no controlled model superiority

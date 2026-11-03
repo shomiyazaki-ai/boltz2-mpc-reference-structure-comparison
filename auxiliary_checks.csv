@@ -1,0 +1,264 @@
+check,absolute_difference,tolerance,pass
+H1_AF-0000000204012512-model_v1_MPC1L,0.0,1e-08,True
+H1_sensitivity_AF-0000000204012512-model_v1_MPC1L,0.0,1e-08,True
+H1_flag_AF-0000000204012512-model_v1_MPC1L,0.0,0,True
+H1_AF-0000000204012512-model_v1_MPC2,0.0,1e-08,True
+H1_sensitivity_AF-0000000204012512-model_v1_MPC2,7.016609515630989e-14,1e-08,True
+H1_flag_AF-0000000204012512-model_v1_MPC2,0.0,0,True
+H1_O95563_P0DKB6_Boltz-2_v2-1-1_MPC1L,2.1316282072803006e-14,1e-08,True
+H1_sensitivity_O95563_P0DKB6_Boltz-2_v2-1-1_MPC1L,2.1316282072803006e-14,1e-08,True
+H1_flag_O95563_P0DKB6_Boltz-2_v2-1-1_MPC1L,0.0,0,True
+H1_O95563_P0DKB6_Boltz-2_v2-1-1_MPC2,3.375077994860476e-14,1e-08,True
+H1_sensitivity_O95563_P0DKB6_Boltz-2_v2-1-1_MPC2,7.815970093361102e-14,1e-08,True
+H1_flag_O95563_P0DKB6_Boltz-2_v2-1-1_MPC2,0.0,0,True
+H1_9GIX_MPC1L,2.1316282072803006e-14,1e-08,True
+H1_sensitivity_9GIX_MPC1L,2.1316282072803006e-14,1e-08,True
+H1_flag_9GIX_MPC1L,0.0,0,True
+H1_9GIX_MPC2,0.0,1e-08,True
+H1_sensitivity_9GIX_MPC2,1.4210854715202004e-14,1e-08,True
+H1_flag_9GIX_MPC2,0.0,0,True
+H1_9GIV_MPC1L,1.4210854715202004e-14,1e-08,True
+H1_sensitivity_9GIV_MPC1L,1.4210854715202004e-14,1e-08,True
+H1_flag_9GIV_MPC1L,0.0,0,True
+H1_9GIV_MPC2,5.684341886080802e-14,1e-08,True
+H1_sensitivity_9GIV_MPC2,1.603162047558726e-13,1e-08,True
+H1_flag_9GIV_MPC2,0.0,0,True
+H1_9GIW_MPC1L,7.105427357601002e-15,1e-08,True
+H1_sensitivity_9GIW_MPC1L,7.105427357601002e-15,1e-08,True
+H1_flag_9GIW_MPC1L,0.0,0,True
+H1_9GIW_MPC2,2.6645352591003757e-14,1e-08,True
+H1_sensitivity_9GIW_MPC2,2.6645352591003757e-14,1e-08,True
+H1_flag_9GIW_MPC2,0.0,0,True
+H1_9GIY_MPC1L,0.0,1e-08,True
+H1_sensitivity_9GIY_MPC1L,1.0658141036401503e-14,1e-08,True
+H1_flag_9GIY_MPC1L,0.0,0,True
+H1_9GIY_MPC2,5.950795411990839e-14,1e-08,True
+H1_sensitivity_9GIY_MPC2,1.7719159473017498e-13,1e-08,True
+H1_flag_9GIY_MPC2,0.0,0,True
+H23_anisotropy_AF-0000000204012512-model_v1MPC1LH2,0.0,1e-08,True
+H23_anisotropy_AF-0000000204012512-model_v1MPC1LH3,0.0,1e-08,True
+H23_directed_AF-0000000204012512-model_v1MPC1L,0.0,1e-08,True
+H23_acute_AF-0000000204012512-model_v1MPC1L,0.0,1e-08,True
+H23_anisotropy_AF-0000000204012512-model_v1MPC2H2,0.0,1e-08,True
+H23_anisotropy_AF-0000000204012512-model_v1MPC2H3,0.0,1e-08,True
+H23_directed_AF-0000000204012512-model_v1MPC2,2.842170943040401e-14,1e-08,True
+H23_acute_AF-0000000204012512-model_v1MPC2,2.842170943040401e-14,1e-08,True
+H23_anisotropy_O95563_P0DKB6_Boltz-2_v2-1-1MPC1LH2,0.0,1e-08,True
+H23_anisotropy_O95563_P0DKB6_Boltz-2_v2-1-1MPC1LH3,0.0,1e-08,True
+H23_directed_O95563_P0DKB6_Boltz-2_v2-1-1MPC1L,2.842170943040401e-14,1e-08,True
+H23_acute_O95563_P0DKB6_Boltz-2_v2-1-1MPC1L,2.842170943040401e-14,1e-08,True
+H23_anisotropy_O95563_P0DKB6_Boltz-2_v2-1-1MPC2H2,0.0,1e-08,True
+H23_anisotropy_O95563_P0DKB6_Boltz-2_v2-1-1MPC2H3,0.0,1e-08,True
+H23_directed_O95563_P0DKB6_Boltz-2_v2-1-1MPC2,2.842170943040401e-14,1e-08,True
+H23_acute_O95563_P0DKB6_Boltz-2_v2-1-1MPC2,2.842170943040401e-14,1e-08,True
+H23_anisotropy_9GIXMPC1LH2,0.0,1e-08,True
+H23_anisotropy_9GIXMPC1LH3,0.0,1e-08,True
+H23_directed_9GIXMPC1L,5.684341886080802e-14,1e-08,True
+H23_acute_9GIXMPC1L,5.684341886080802e-14,1e-08,True
+H23_anisotropy_9GIXMPC2H2,0.0,1e-08,True
+H23_anisotropy_9GIXMPC2H3,0.0,1e-08,True
+H23_directed_9GIXMPC2,2.842170943040401e-14,1e-08,True
+H23_acute_9GIXMPC2,2.842170943040401e-14,1e-08,True
+H23_anisotropy_9GIVMPC1LH2,0.0,1e-08,True
+H23_anisotropy_9GIVMPC1LH3,0.0,1e-08,True
+H23_directed_9GIVMPC1L,5.684341886080802e-14,1e-08,True
+H23_acute_9GIVMPC1L,5.684341886080802e-14,1e-08,True
+H23_anisotropy_9GIVMPC2H2,0.0,1e-08,True
+H23_anisotropy_9GIVMPC2H3,0.0,1e-08,True
+H23_directed_9GIVMPC2,2.842170943040401e-14,1e-08,True
+H23_acute_9GIVMPC2,2.842170943040401e-14,1e-08,True
+H23_anisotropy_9GIWMPC1LH2,0.0,1e-08,True
+H23_anisotropy_9GIWMPC1LH3,0.0,1e-08,True
+H23_directed_9GIWMPC1L,2.842170943040401e-14,1e-08,True
+H23_acute_9GIWMPC1L,2.842170943040401e-14,1e-08,True
+H23_anisotropy_9GIWMPC2H2,0.0,1e-08,True
+H23_anisotropy_9GIWMPC2H3,0.0,1e-08,True
+H23_directed_9GIWMPC2,0.0,1e-08,True
+H23_acute_9GIWMPC2,0.0,1e-08,True
+H23_anisotropy_9GIYMPC1LH2,0.0,1e-08,True
+H23_anisotropy_9GIYMPC1LH3,0.0,1e-08,True
+H23_directed_9GIYMPC1L,2.842170943040401e-14,1e-08,True
+H23_acute_9GIYMPC1L,2.842170943040401e-14,1e-08,True
+H23_anisotropy_9GIYMPC2H2,0.0,1e-08,True
+H23_anisotropy_9GIYMPC2H3,0.0,1e-08,True
+H23_directed_9GIYMPC2,8.526512829121202e-14,1e-08,True
+H23_acute_9GIYMPC2,8.526512829121202e-14,1e-08,True
+local_CA_84,0.0,1e-08,True
+local_heavy_85,0.0,1e-08,True
+local_CA_86,0.0,1e-08,True
+local_heavy_87,0.0,1e-08,True
+local_CA_88,0.0,1e-08,True
+local_heavy_89,0.0,1e-08,True
+local_CA_90,0.0,1e-08,True
+local_heavy_91,0.0,1e-08,True
+local_CA_92,0.0,1e-08,True
+local_heavy_93,0.0,1e-08,True
+local_CA_94,0.0,1e-08,True
+local_heavy_95,4.440892098500626e-16,1e-08,True
+local_CA_96,0.0,1e-08,True
+local_heavy_97,0.0,1e-08,True
+local_CA_98,0.0,1e-08,True
+local_heavy_99,0.0,1e-08,True
+local_CA_100,0.0,1e-08,True
+local_heavy_101,0.0,1e-08,True
+local_CA_102,0.0,1e-08,True
+local_heavy_103,0.0,1e-08,True
+local_CA_104,0.0,1e-08,True
+local_heavy_105,3.552713678800501e-15,1e-08,True
+local_CA_106,0.0,1e-08,True
+local_heavy_107,0.0,1e-08,True
+local_CA_108,0.0,1e-08,True
+local_heavy_109,0.0,1e-08,True
+local_CA_110,0.0,1e-08,True
+local_heavy_111,0.0,1e-08,True
+local_CA_112,0.0,1e-08,True
+local_heavy_113,0.0,1e-08,True
+local_CA_114,0.0,1e-08,True
+local_heavy_115,0.0,1e-08,True
+local_CA_116,0.0,1e-08,True
+local_heavy_117,0.0,1e-08,True
+local_CA_118,0.0,1e-08,True
+local_heavy_119,0.0,1e-08,True
+local_CA_120,0.0,1e-08,True
+local_heavy_121,0.0,1e-08,True
+local_CA_122,0.0,1e-08,True
+local_heavy_123,8.881784197001252e-16,1e-08,True
+local_CA_124,0.0,1e-08,True
+local_heavy_125,0.0,1e-08,True
+local_CA_126,0.0,1e-08,True
+local_heavy_127,0.0,1e-08,True
+local_CA_128,0.0,1e-08,True
+local_heavy_129,0.0,1e-08,True
+local_CA_130,0.0,1e-08,True
+local_heavy_131,0.0,1e-08,True
+local_CA_132,0.0,1e-08,True
+local_heavy_133,0.0,1e-08,True
+local_CA_134,0.0,1e-08,True
+local_heavy_135,0.0,1e-08,True
+local_CA_136,0.0,1e-08,True
+local_heavy_137,0.0,1e-08,True
+local_CA_138,0.0,1e-08,True
+local_heavy_139,0.0,1e-08,True
+local_CA_140,0.0,1e-08,True
+local_heavy_141,0.0,1e-08,True
+local_CA_142,0.0,1e-08,True
+local_heavy_143,8.881784197001252e-16,1e-08,True
+Tier0_id_Boltz,0.0,0,True
+Tier1_id_Boltz,0.0,0,True
+"Tier1_distance_Boltz('A', 54, 'OG', 'B', 59, 'OD1')",2.1443379649710437e-07,2e-05,True
+"Tier1_distance_Boltz('A', 54, 'OG', 'B', 59, 'OD2')",4.4698277079646687e-08,2e-05,True
+"Tier1_distance_Boltz('B', 62, 'NH2', 'A', 51, 'O')",2.5602885589393054e-07,2e-05,True
+"Tier1_distance_Boltz('B', 68, 'OG', 'A', 45, 'OD2')",1.0438877939833446e-07,2e-05,True
+"Tier1_distance_Boltz('B', 82, 'NE1', 'A', 35, 'OG')",1.1566830027121e-07,2e-05,True
+Tier0_id_9GIX,0.0,0,True
+Tier1_id_9GIX,0.0,0,True
+"Tier1_distance_9GIX('B', 82, 'NE1', 'A', 31, 'O')",9.311284026924938e-06,2e-05,True
+Tier0_id_9GIV,0.0,0,True
+Tier1_id_9GIV,0.0,0,True
+"Tier0_distance_9GIV('B', 66, 'NZ', 'A', 51, 'OE1')",3.465086062526268e-06,2e-05,True
+"Tier1_distance_9GIV('A', 54, 'OG', 'B', 59, 'OD2')",1.2766420049992178e-06,2e-05,True
+"Tier1_distance_9GIV('B', 66, 'NZ', 'A', 51, 'OE1')",3.465086062526268e-06,2e-05,True
+"Tier1_distance_9GIV('B', 68, 'OG', 'A', 45, 'OD2')",4.811665873738491e-06,2e-05,True
+Tier0_id_9GIW,0.0,0,True
+Tier1_id_9GIW,0.0,0,True
+"Tier0_distance_9GIW('B', 66, 'NZ', 'A', 51, 'OE1')",9.532615123930555e-07,2e-05,True
+"Tier1_distance_9GIW('A', 54, 'OG', 'B', 59, 'OD1')",2.945544538501821e-06,2e-05,True
+"Tier1_distance_9GIW('B', 62, 'NH1', 'A', 52, 'O')",7.058817937721784e-06,2e-05,True
+"Tier1_distance_9GIW('B', 62, 'NH1', 'A', 53, 'O')",1.2327990225990959e-05,2e-05,True
+"Tier1_distance_9GIW('B', 62, 'NH2', 'A', 53, 'O')",1.2004075000682235e-06,2e-05,True
+"Tier1_distance_9GIW('B', 66, 'NZ', 'A', 51, 'OE1')",9.532615123930555e-07,2e-05,True
+"Tier1_distance_9GIW('B', 68, 'OG', 'A', 45, 'OD2')",9.081545590650109e-06,2e-05,True
+Tier0_id_9GIY,0.0,0,True
+Tier1_id_9GIY,0.0,0,True
+"Tier0_distance_9GIY('A', 56, 'NH2', 'B', 59, 'OD1')",7.097189260285575e-06,2e-05,True
+"Tier0_distance_9GIY('B', 66, 'NZ', 'A', 51, 'OE2')",3.5026149611816493e-06,2e-05,True
+"Tier1_distance_9GIY('B', 66, 'NZ', 'A', 51, 'OE2')",3.5026149611816493e-06,2e-05,True
+"Tier1_distance_9GIY('B', 68, 'OG', 'A', 45, 'OD2')",5.1538231176095906e-06,2e-05,True
+Tier0_id_AF,0.0,0,True
+Tier1_id_AF,0.0,0,True
+"Tier1_distance_AF('A', 54, 'OG', 'B', 59, 'OD1')",2.253523767592469e-08,2e-05,True
+"Tier1_distance_AF('A', 54, 'OG', 'B', 59, 'OD2')",1.1752772088868824e-09,2e-05,True
+"Tier1_distance_AF('B', 62, 'NH2', 'A', 51, 'O')",4.447623895842412e-07,2e-05,True
+"Tier1_distance_AF('B', 68, 'OG', 'A', 45, 'OD2')",1.1218702899995492e-07,2e-05,True
+"Tier2_saved_DA_Boltz('A', 54, 'OG')",1.0812377393421002e-07,0.002,True
+"Tier2_saved_angle_Boltz('A', 54, 'OG')",0.031781914439363845,0.15,True
+"Tier2_saved_DA_Boltz('B', 68, 'OG')",2.6347693804495975e-08,0.002,True
+"Tier2_saved_angle_Boltz('B', 68, 'OG')",0.06198379620741434,0.15,True
+"Tier2_saved_DA_9GIV('B', 66, 'NZ')",2.175991426600632e-06,0.002,True
+"Tier2_saved_angle_9GIV('B', 66, 'NZ')",0.019935245097769894,0.15,True
+"Tier2_saved_DA_9GIV('B', 68, 'OG')",2.4445334858569367e-06,0.002,True
+"Tier2_saved_angle_9GIV('B', 68, 'OG')",0.00905632760827757,0.15,True
+"Tier2_saved_DA_AF('B', 68, 'OG')",2.2953276568316028e-07,0.002,True
+"Tier2_saved_angle_AF('B', 68, 'OG')",0.005383423419971223,0.15,True
+SASA_arithmetic_O95563_P0DKB6_Boltz-2_v2-1-1,0.0,1e-08,True
+BSA_half_O95563_P0DKB6_Boltz-2_v2-1-1,0.0,1e-08,True
+SASA_arithmetic_9GIX,0.0,1e-08,True
+BSA_half_9GIX,0.0,1e-08,True
+SASA_arithmetic_9GIV,0.0,1e-08,True
+BSA_half_9GIV,0.0,1e-08,True
+SASA_arithmetic_9GIW,0.0,1e-08,True
+BSA_half_9GIW,0.0,1e-08,True
+SASA_arithmetic_9GIY,0.0,1e-08,True
+BSA_half_9GIY,0.0,1e-08,True
+SASA_arithmetic_AF-0000000204012512-model_v1,0.0,1e-08,True
+BSA_half_AF-0000000204012512-model_v1,0.0,1e-08,True
+DockQ_stdout_DockQ_O95563_P0DKB6_Boltz-2_v2-1-1_vs_9GIX.txtDockQ,0.0,0,True
+DockQ_stdout_DockQ_O95563_P0DKB6_Boltz-2_v2-1-1_vs_9GIX.txtiRMSD,0.0,0,True
+DockQ_stdout_DockQ_O95563_P0DKB6_Boltz-2_v2-1-1_vs_9GIX.txtLRMSD,0.0,0,True
+DockQ_stdout_DockQ_O95563_P0DKB6_Boltz-2_v2-1-1_vs_9GIX.txtfnat,0.0,0,True
+DockQ_stdout_DockQ_O95563_P0DKB6_Boltz-2_v2-1-1_vs_9GIV.txtDockQ,0.0,0,True
+DockQ_stdout_DockQ_O95563_P0DKB6_Boltz-2_v2-1-1_vs_9GIV.txtiRMSD,0.0,0,True
+DockQ_stdout_DockQ_O95563_P0DKB6_Boltz-2_v2-1-1_vs_9GIV.txtLRMSD,0.0,0,True
+DockQ_stdout_DockQ_O95563_P0DKB6_Boltz-2_v2-1-1_vs_9GIV.txtfnat,0.0,0,True
+DockQ_stdout_DockQ_O95563_P0DKB6_Boltz-2_v2-1-1_vs_9GIW.txtDockQ,0.0,0,True
+DockQ_stdout_DockQ_O95563_P0DKB6_Boltz-2_v2-1-1_vs_9GIW.txtiRMSD,0.0,0,True
+DockQ_stdout_DockQ_O95563_P0DKB6_Boltz-2_v2-1-1_vs_9GIW.txtLRMSD,0.0,0,True
+DockQ_stdout_DockQ_O95563_P0DKB6_Boltz-2_v2-1-1_vs_9GIW.txtfnat,0.0,0,True
+DockQ_stdout_DockQ_O95563_P0DKB6_Boltz-2_v2-1-1_vs_9GIY.txtDockQ,0.0,0,True
+DockQ_stdout_DockQ_O95563_P0DKB6_Boltz-2_v2-1-1_vs_9GIY.txtiRMSD,0.0,0,True
+DockQ_stdout_DockQ_O95563_P0DKB6_Boltz-2_v2-1-1_vs_9GIY.txtLRMSD,0.0,0,True
+DockQ_stdout_DockQ_O95563_P0DKB6_Boltz-2_v2-1-1_vs_9GIY.txtfnat,0.0,0,True
+DockQ_stdout_DockQ_9GIX_vs_9GIV.txtDockQ,0.0,0,True
+DockQ_stdout_DockQ_9GIX_vs_9GIV.txtiRMSD,0.0,0,True
+DockQ_stdout_DockQ_9GIX_vs_9GIV.txtLRMSD,0.0,0,True
+DockQ_stdout_DockQ_9GIX_vs_9GIV.txtfnat,0.0,0,True
+DockQ_stdout_DockQ_9GIX_vs_9GIW.txtDockQ,0.0,0,True
+DockQ_stdout_DockQ_9GIX_vs_9GIW.txtiRMSD,0.0,0,True
+DockQ_stdout_DockQ_9GIX_vs_9GIW.txtLRMSD,0.0,0,True
+DockQ_stdout_DockQ_9GIX_vs_9GIW.txtfnat,0.0,0,True
+DockQ_stdout_DockQ_9GIX_vs_9GIY.txtDockQ,0.0,0,True
+DockQ_stdout_DockQ_9GIX_vs_9GIY.txtiRMSD,0.0,0,True
+DockQ_stdout_DockQ_9GIX_vs_9GIY.txtLRMSD,0.0,0,True
+DockQ_stdout_DockQ_9GIX_vs_9GIY.txtfnat,0.0,0,True
+DockQ_stdout_DockQ_9GIV_vs_9GIW.txtDockQ,0.0,0,True
+DockQ_stdout_DockQ_9GIV_vs_9GIW.txtiRMSD,0.0,0,True
+DockQ_stdout_DockQ_9GIV_vs_9GIW.txtLRMSD,0.0,0,True
+DockQ_stdout_DockQ_9GIV_vs_9GIW.txtfnat,0.0,0,True
+DockQ_stdout_DockQ_9GIV_vs_9GIY.txtDockQ,0.0,0,True
+DockQ_stdout_DockQ_9GIV_vs_9GIY.txtiRMSD,0.0,0,True
+DockQ_stdout_DockQ_9GIV_vs_9GIY.txtLRMSD,0.0,0,True
+DockQ_stdout_DockQ_9GIV_vs_9GIY.txtfnat,0.0,0,True
+DockQ_stdout_DockQ_9GIW_vs_9GIY.txtDockQ,0.0,0,True
+DockQ_stdout_DockQ_9GIW_vs_9GIY.txtiRMSD,0.0,0,True
+DockQ_stdout_DockQ_9GIW_vs_9GIY.txtLRMSD,0.0,0,True
+DockQ_stdout_DockQ_9GIW_vs_9GIY.txtfnat,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_9GIX.txtDockQ,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_9GIX.txtiRMSD,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_9GIX.txtLRMSD,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_9GIX.txtfnat,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_9GIV.txtDockQ,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_9GIV.txtiRMSD,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_9GIV.txtLRMSD,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_9GIV.txtfnat,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_9GIW.txtDockQ,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_9GIW.txtiRMSD,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_9GIW.txtLRMSD,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_9GIW.txtfnat,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_9GIY.txtDockQ,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_9GIY.txtiRMSD,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_9GIY.txtLRMSD,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_9GIY.txtfnat,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_O95563_P0DKB6_Boltz-2_v2-1-1.txtDockQ,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_O95563_P0DKB6_Boltz-2_v2-1-1.txtiRMSD,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_O95563_P0DKB6_Boltz-2_v2-1-1.txtLRMSD,0.0,0,True
+DockQ_stdout_DockQ_AF_vs_O95563_P0DKB6_Boltz-2_v2-1-1.txtfnat,0.0,0,True

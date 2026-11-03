@@ -1,0 +1,49 @@
+{
+  "date_JST": "2026-11-03",
+  "upstream": "structural-interactome/human-interactome",
+  "commit": "dc55acabb3da7f233def7a0668d86e1c0ecb8e8e",
+  "path": "interaction_structures/O95563_P0DKB6_Boltz-2_v2-1-1.cif",
+  "content_bytes": 181658,
+  "sha256": "3ef95557b603f6c32bcf2193158ff3bfe621f92c60013cdec7c15438c3f4fe64",
+  "exact_match_to_supplied_CIF": true,
+  "license_at_fixed_commit": "MIT; exact notice preserved in licenses/Atlas_MIT.txt",
+  "license_blob_sha": "0d5a99200c217329e8f4040af98e6ecbb31aac04",
+  "atlas_supplementary_identity_check": [
+    {
+      "source_filename": "media-2.xlsx",
+      "source_sha256": "0a4c3874baba9e68b6bad09b3f59dc0e70905c0e6ee6c7b8cd969bbee61ae83f",
+      "sheet": "Sheet1",
+      "excel_row_1based": 149,
+      "header_rows": 2,
+      "data_entry_1based": 147,
+      "interactor_A": "O95563",
+      "interactor_B": "P0DKB6",
+      "sequence_length_A": 127,
+      "sequence_length_B": 136
+    },
+    {
+      "source_filename": "media-3.xlsx",
+      "source_sha256": "bed30a767cb165724aba00426055bae6fcd18b709d0ac7661a023bb09e4038d5",
+      "sheet": "Sheet1",
+      "excel_row_1based": 149,
+      "header_rows": 2,
+      "data_entry_1based": 147,
+      "interactor_A": "O95563",
+      "interactor_B": "P0DKB6",
+      "interface_pTM": 0.83323186635971,
+      "MSA_depth": 2008,
+      "role": "source metadata only; not a C01 evaluation endpoint"
+    },
+    {
+      "source_filename": "media-4.xlsx",
+      "source_sha256": "1311e653bb4167169515c988a59d32a2f7c6ad56431e8315444a07e48c60cb87",
+      "sheet": "Sheet1",
+      "excel_row_1based": 149,
+      "header_rows": 2,
+      "data_entry_1based": 147,
+      "interactor_A": "O95563",
+      "interactor_B": "P0DKB6"
+    }
+  ],
+  "atlas_row_number_convention": "data entry147; worksheet row149 after title/header rows. No new population search or model selection."
+}

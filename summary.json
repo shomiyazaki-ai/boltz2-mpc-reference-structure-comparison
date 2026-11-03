@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "metric_count": 105,
+  "max_abs_RMSD_difference_A": 8.881784197001252e-16,
+  "contact_rows": 480,
+  "contact_max_distance_difference_A": 0.0,
+  "checks": 1313,
+  "method": "proper SVD fit; separate from quaternion verifier",
+  "python": "3.12.14",
+  "numpy": "2.3.5"
+}

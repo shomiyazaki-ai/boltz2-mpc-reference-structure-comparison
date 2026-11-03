@@ -1,0 +1,7 @@
+structure,tier0_candidates,tier1_atom_pairs,normalization
+Boltz,0,5,A=MPC1L; B=MPC2; all observed atoms
+9GIX,0,1,A=MPC1L; B=MPC2; all observed atoms
+9GIV,1,3,A=MPC1L; B=MPC2; all observed atoms
+9GIW,1,6,A=MPC1L; B=MPC2; all observed atoms
+9GIY,2,2,A=MPC1L; B=MPC2; all observed atoms
+AF,0,4,A=MPC1L; B=MPC2; all observed atoms

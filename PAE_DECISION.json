@@ -1,0 +1,12 @@
+{
+  "included": false,
+  "reason": "Not an input to any published endpoint. CIF provenance and original PAE identity suffice; no new PAE analysis. Full matrix can be fetched upstream under CC-BY-4.0.",
+  "source_entry": "https://alphafold.ebi.ac.uk/entry/AF-0000000204012512",
+  "filename": "AF-0000000204012512-predicted_aligned_error_v1.json",
+  "sha256": "c3960b35e52f0a0a04963c85482513f8984842eaf314d3778f4fc87de1d3bd84",
+  "bytes": 364438,
+  "historical_dimensions": [
+    263,
+    263
+  ]
+}

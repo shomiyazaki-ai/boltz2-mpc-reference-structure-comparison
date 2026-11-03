@@ -1,0 +1,15 @@
+source,target,RMSD_A,canonical_path,canonical_data_row
+O95563_P0DKB6_Boltz-2_v2-1-1,9GIX,3.8539763602554844,data/results/primary_70_metrics.csv,1
+O95563_P0DKB6_Boltz-2_v2-1-1,9GIV,0.9641148760550295,data/results/primary_70_metrics.csv,8
+O95563_P0DKB6_Boltz-2_v2-1-1,9GIW,1.217373823774173,data/results/primary_70_metrics.csv,15
+O95563_P0DKB6_Boltz-2_v2-1-1,9GIY,1.0770572099164601,data/results/primary_70_metrics.csv,22
+9GIX,9GIV,3.8793903607893894,data/results/primary_70_metrics.csv,29
+9GIX,9GIW,3.848898462747632,data/results/primary_70_metrics.csv,36
+9GIX,9GIY,3.769616088990086,data/results/primary_70_metrics.csv,43
+9GIV,9GIW,0.6053053411200476,data/results/primary_70_metrics.csv,50
+9GIV,9GIY,0.572129650394934,data/results/primary_70_metrics.csv,57
+9GIW,9GIY,0.5100850107394845,data/results/primary_70_metrics.csv,64
+AF-0000000204012512-model_v1,9GIX,4.045460084569267,data/results/AF_35_metrics.csv,1
+AF-0000000204012512-model_v1,9GIV,1.7943734121871693,data/results/AF_35_metrics.csv,8
+AF-0000000204012512-model_v1,9GIW,1.9664276947612918,data/results/AF_35_metrics.csv,15
+AF-0000000204012512-model_v1,9GIY,1.837598599355779,data/results/AF_35_metrics.csv,22

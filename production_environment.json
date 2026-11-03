@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "system": "Linux",
+  "machine": "x86_64",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "reportlab": "4.4.9",
+    "Pillow": "12.3.0",
+    "pypdf": "6.10.0",
+    "PyMuPDF": "1.26.6",
+    "PyYAML": "6.0.3"
+  },
+  "fonts": "DejaVu Sans shipped with installed Matplotlib",
+  "original_engines_reinstalled": false,
+  "windows_execution_in_this_production": false
+}

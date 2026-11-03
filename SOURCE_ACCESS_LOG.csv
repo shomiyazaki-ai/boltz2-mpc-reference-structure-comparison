@@ -1,0 +1,9 @@
+source,access_route,status,scope,url
+Sichrovsky article and SI,Supplied sciadv.adw1489.pdf + _sm.pdf,INSPECTED,Article Fig2/Methods AF ensemble; SI FigS9 and TablesS1/S2,https://doi.org/10.1126/sciadv.adw1489
+Ille atlas v3,Supplied 2025.07.03.663068v3.full.pdf,INSPECTED; live bioRxiv 403,Full supplied version3 used; no replacement by v1,https://www.biorxiv.org/content/10.1101/2025.07.03.663068v3
+Atlas source CIF and MIT,Connected repository reader; fixed commit,EXACT CONTENT/NOTICE VERIFIED,CIF181658 bytes; hash matches supplied; license blob identified,https://github.com/structural-interactome/human-interactome/tree/dc55acabb3da7f233def7a0668d86e1c0ecb8e8e
+Four RCSB entry pages,Official live entry pages,INSPECTED,Species/method/state/ligands contextual; no latest CIF substitution,https://www.rcsb.org/structure/9GIX
+wwPDB archive data rights,Official usage policy,VERIFIED,Archive data CC0; report originals excluded,https://www.wwpdb.org/about/usage-policies
+AFDB rights / per-entry metadata,Frozen CIF usage/protocol categories + official FAQ,VERIFIED; dynamic entry live page unavailable,CC-BY-4.0 declared; source declarations distinguished from independent inference replay,https://alphafold.ebi.ac.uk/faq
+N1 / NTBE / X4 quality references,All six supplied PDFs extracted and inspected; three README sources fetched,INSPECTED AS QUALITY EXAMPLES,"Traceability, limits, independent checks and rights used; no copied page count/structure requirement",User-supplied references
+MDAnalysis HELANAL math,Official source documentation2.9.0,INSPECTED,Local-axis mathematical definition; no package-source redistribution,https://docs.mdanalysis.org/2.9.0/_modules/MDAnalysis/analysis/helix_analysis.html

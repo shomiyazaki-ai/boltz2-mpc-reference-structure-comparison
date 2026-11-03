@@ -1,0 +1,30 @@
+{
+  "source_sha256": "96cbe92ee50c2d300414f40494c552cf5404b58220335cc1d8b86b83902d053c",
+  "records": [
+    {
+      "structure": "9GIX",
+      "tier2_status_prior": "NOT RUN",
+      "threshold_A": 1e-05,
+      "post_h_max_A": 1.3838199085119887e-05,
+      "post_h_above_threshold": 81,
+      "original_heavy_count": 1754
+    },
+    {
+      "structure": "9GIW",
+      "tier2_status_prior": "NOT RUN",
+      "threshold_A": 1e-05,
+      "post_h_max_A": 1.2628719935882956e-05,
+      "post_h_above_threshold": 20,
+      "original_heavy_count": 1662
+    },
+    {
+      "structure": "9GIY",
+      "tier2_status_prior": "NOT RUN",
+      "threshold_A": 1e-05,
+      "post_h_max_A": 1.3328331716913932e-05,
+      "post_h_above_threshold": 200,
+      "original_heavy_count": 1764
+    }
+  ],
+  "interpretation": "These runs remain NOT RUN for the H-bond screen. Diagnostic completion is not Tier2 PASS."
+}

@@ -1,0 +1,281 @@
+[
+  {
+    "structure": "Boltz",
+    "input_sha256": "9bf1edf9120dbe7f3caddc24a31c52a8b061dd5d821cf800f9ef4dc81bcf5f50",
+    "status": "PASS",
+    "detected_missing_residues": "{}",
+    "missing_atoms_and_terminals": [
+      [
+        "A",
+        "136",
+        "SER",
+        [
+          "OXT"
+        ]
+      ],
+      [
+        "B",
+        "127",
+        "LYS",
+        [
+          "OXT"
+        ]
+      ]
+    ],
+    "repair_heavy_max_shift_A": 0.0,
+    "added_heavy_atoms": [
+      [
+        "A",
+        "136",
+        "SER",
+        "OXT"
+      ],
+      [
+        "B",
+        "127",
+        "LYS",
+        "OXT"
+      ]
+    ],
+    "original_heavy_count": 2070,
+    "hydrogenation_heavy_max_shift_A": 2.4481352824475694e-06,
+    "hydrogen_count": 2094,
+    "net_charge_e": 20.00000000000001,
+    "forcefield_particles": 4166,
+    "charge_by_residue_type": {
+      "ASP": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "GLU": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "LYS": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        -0.0
+      ],
+      "ARG": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "HIS": [
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    "tier2_triplet_count": 2,
+    "tier2_unique_residue_pairs": 2,
+    "derived_sha256": "d78d3facae40ee4b417864f276b9193bd0df6153045c336d23f2ded7b134740b"
+  },
+  {
+    "structure": "9GIX",
+    "input_sha256": "ccbdab5f04a9f2d791e789dbdb100d5f3e38f409940ab76ff9cfc9cf0c6aac27",
+    "status": "NOT RUN",
+    "detected_missing_residues": "{}",
+    "missing_atoms_and_terminals": [
+      [
+        "A",
+        "107",
+        "GLY",
+        [
+          "OXT"
+        ]
+      ],
+      [
+        "B",
+        "121",
+        "LEU",
+        [
+          "OXT"
+        ]
+      ]
+    ],
+    "reason": "hydrogenation moved original heavy atoms >1e-5A"
+  },
+  {
+    "structure": "9GIV",
+    "input_sha256": "931f2d5aae343e2e9fd7bf856e3e3663ef03130ecc5177f6133faf319af9202e",
+    "status": "PASS",
+    "detected_missing_residues": "{}",
+    "missing_atoms_and_terminals": [
+      [
+        "A",
+        "106",
+        "GLY",
+        [
+          "OXT"
+        ]
+      ],
+      [
+        "B",
+        "125",
+        "ALA",
+        [
+          "OXT"
+        ]
+      ]
+    ],
+    "repair_heavy_max_shift_A": 0.0,
+    "added_heavy_atoms": [
+      [
+        "A",
+        "106",
+        "GLY",
+        "OXT"
+      ],
+      [
+        "B",
+        "125",
+        "ALA",
+        "OXT"
+      ]
+    ],
+    "original_heavy_count": 1628,
+    "hydrogenation_heavy_max_shift_A": 7.949873023043853e-06,
+    "hydrogen_count": 1651,
+    "net_charge_e": 13.000000000000009,
+    "forcefield_particles": 3281,
+    "charge_by_residue_type": {
+      "ASP": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "GLU": [
+        0.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "LYS": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "ARG": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "HIS": [
+        -0.0,
+        -0.0,
+        -0.0,
+        -0.0
+      ]
+    },
+    "tier2_triplet_count": 2,
+    "tier2_unique_residue_pairs": 2,
+    "derived_sha256": "5197d08b8cf8105315fa1420a61dbfb78642493b364a4b545f288ce3ab181266"
+  },
+  {
+    "structure": "9GIW",
+    "input_sha256": "07bc63e9c98dd17d8cad8f54d33a2680fbb7844110b53a48b9d4ae021ab01875",
+    "status": "NOT RUN",
+    "detected_missing_residues": "{}",
+    "missing_atoms_and_terminals": [
+      [
+        "A",
+        "105",
+        "TYR",
+        [
+          "OXT"
+        ]
+      ],
+      [
+        "B",
+        "121",
+        "LEU",
+        [
+          "OXT"
+        ]
+      ]
+    ],
+    "reason": "hydrogenation moved original heavy atoms >1e-5A"
+  },
+  {
+    "structure": "9GIY",
+    "input_sha256": "c663f6d20a42ebe9f0929a4add57469df09f598639eae8ff2d4c75db418e0095",
+    "status": "NOT RUN",
+    "detected_missing_residues": "{}",
+    "missing_atoms_and_terminals": [
+      [
+        "A",
+        "106",
+        "GLY",
+        [
+          "OXT"
+        ]
+      ],
+      [
+        "B",
+        "123",
+        "ALA",
+        [
+          "OXT"
+        ]
+      ]
+    ],
+    "reason": "hydrogenation moved original heavy atoms >1e-5A"
+  }
+]

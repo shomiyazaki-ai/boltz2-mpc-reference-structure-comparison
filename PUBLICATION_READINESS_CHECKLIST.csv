@@ -1,0 +1,16 @@
+item,status,required_action_or_evidence
+Scientific scope,PASS,A Primary / B Exploratory; no independent MSC or new mechanism claim
+105 RMSDs and common masks,PASS,Fresh SVD and separate quaternion replay; 1e-5 Å tolerance
+Exceptions and historical correction,PASS,H1 FAIL/flag; bundle NOT RUN; three Tier2 NOT RUN; exact AF correction retained
+Portable commands,PASS,Clean-extracted numerical/presentation/PDF command replay tested; fresh install/Windows not claimed
+PDF/figure layout,PASS,"Technical Note9pages +SI17pages, all26pages rendered and visually inspected; Figure1PNG/SVG checked"
+Third-party coordinate rights,PASS WITH RETAINED TERMS,PDB CC0; pinned Atlas MIT; AFDB per-file CC-BY-4.0
+Author ownership / employer independence,AUTHOR APPROVED 2026-11-03,Author confirms rights to publish original code/data/text; upstream source rights remain separated
+Proposed author licenses,AUTHOR APPROVED 2026-11-03,Author approves CC BY 4.0 original prose/figures/eligible presentation data and MIT original scripts for future release
+Funding declaration,AUTHOR APPROVED 2026-11-03,No specific funding was received for this independent study.
+Competing interests,AUTHOR APPROVED 2026-11-03,The author declares no competing interests.
+Affiliation / contact,AUTHOR APPROVED 2026-11-03,"Author confirms Independent researcher, Tokyo, Japan; published contact retained as supplied"
+Repository / release tag / commit,PENDING FUTURE PUBLICATION,Name fixed; no repository created; no tag or commit asserted
+Zenodo version DOI,RESERVED BY AUTHOR / NOT PUBLISHED,Author supplied reserved version DOI 10.5281/zenodo.23910491; verify draft identity/metadata at Zenodo; do not equate reservation with publication
+Final identifier embedding / hashes,REBUILD IN THIS DOI ROUND,"Insert 10.5281/zenodo.23910491 in documents/metadata; regenerate PDFs, manifest and SHA256; actual GitHub commit/tag remain pending"
+External publication,NOT AUTHORIZED IN THIS TASK,"Author reserved Zenodo DOI before this task; this task performs no external upload, push, release or publication"
