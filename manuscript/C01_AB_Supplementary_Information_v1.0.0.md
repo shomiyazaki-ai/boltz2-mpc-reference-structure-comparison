@@ -5,8 +5,8 @@
 **Sho Miyazaki**  
 Independent researcher, Tokyo, Japan  
 Correspondence: shomiyazaki98@gmail.com  
-Technical Note supplement | Version 1.0.0 publication candidate | 3 November 2026  
-Zenodo version DOI (reserved; unpublished): 10.5281/zenodo.23910491 (https://doi.org/10.5281/zenodo.23910491).
+Technical Note supplement | Version 1.0.0 | 3 November 2026  
+Zenodo version DOI: 10.5281/zenodo.23910491 (https://doi.org/10.5281/zenodo.23910491).
 
 This supplement supplies the source-to-result chain for C01 A (Primary fixed Boltz comparison) and B (Exploratory fixed AlphaFold-derived comparison). It introduces no new prediction, state classification, simulation or scientific endpoint. References [1]–[9] refer to the Technical Note bibliography. Numerical CSVs retain their original identifiers and full stored precision; displayed tables are reproducibly selected views.
 
@@ -526,7 +526,7 @@ The historical Session B narrative reported 3.897919 Å for AF–9GIX on the 62-
 
 The English README is the entry point. CLAIM_EVIDENCE_MAP.csv connects each major claim to the Technical Note/SI location, unchanged canonical data, fresh verification and source-coordinate/protocol evidence. SOURCE_MANIFEST.csv gives original source-pack and archive-member identities for selected public evidence; unchanged copies have matching original/public SHA-256. Curated numerical excerpts or JSONs are marked as transformations, not original files. RIGHTS_MANIFEST.csv and LICENSE_SCOPE.md distinguish the applicable material classes.
 
-RELEASE_MANIFEST.json is the candidate's fixed-version correspondence record. It intentionally excludes self-hashing, a future public commit SHA and containing archive hashes from immutable self-referential assertions. Reserved Zenodo version DOI 10.5281/zenodo.23910491 is recorded as an identifier, not a public release. SHA256SUMS.txt lists all declared distribution files except itself. A separate outer release checksum identifies the two top-level PDFs and reproducibility ZIP. The actual GitHub release commit and tag remain pending; publication follows the non-circular release procedure and separate author approval.
+RELEASE_MANIFEST.json is the version 1.0.0 payload correspondence record. It intentionally excludes self-hashing, the Git commit containing this payload, and containing archive hashes from immutable self-referential assertions. Zenodo version DOI 10.5281/zenodo.23910491 identifies this distribution. SHA256SUMS.txt lists the declared distribution files except itself. A separate outer release checksum identifies the two top-level PDFs and reproducibility ZIP. The actual GitHub commit and tag are recorded in an external release receipt after fixation, following the non-circular release procedure.
 
 ### S8.2 Tested reproduction levels
 
@@ -542,4 +542,4 @@ For DockQ, the printed table contains four principal descriptors for all 15 comp
 
 ### S8.4 Release and rights boundary
 
-This is a locally assembled publication candidate, not a published GitHub/Zenodo record. Zenodo version DOI 10.5281/zenodo.23910491 has been reserved for the draft but is not yet published; public GitHub tag and commit are pending. The author has confirmed ownership/publication authority, funding and competing-interest declarations, affiliation, and the planned CC BY 4.0 / MIT rights split for original materials. These approvals do not constitute an external release. No model checkpoint, MSA, third-party article/SI or validation-report original is included. Experimental CIFs remain CC0; atlas and AFDB materials retain their upstream notices. The DOI reservation was performed by the author. GitHub repository creation, tagging and external publication remain separate actions requiring author instruction.
+This version 1.0.0 distribution identifies Zenodo version DOI 10.5281/zenodo.23910491 and the repository https://github.com/shomiyazaki-ai/boltz2-mpc-reference-structure-comparison. The author confirmed publication authority, funding and competing-interest declarations, affiliation, and the CC BY 4.0 / MIT rights split for original materials. No model checkpoint, MSA, third-party article/SI or validation-report original is included. Experimental CIFs remain CC0; atlas and AFDB materials retain their upstream notices. GitHub release tag/commit evidence is held in a separate external release receipt to avoid changing the identified payload.

@@ -3,8 +3,8 @@
 **Sho Miyazaki**  
 Independent researcher, Tokyo, Japan  
 Correspondence: shomiyazaki98@gmail.com  
-Technical Note | Version 1.0.0 publication candidate | 3 November 2026  
-Zenodo version DOI (reserved; not yet published): 10.5281/zenodo.23910491 (https://doi.org/10.5281/zenodo.23910491).
+Technical Note | Version 1.0.0 | 3 November 2026  
+Zenodo version DOI: 10.5281/zenodo.23910491 (https://doi.org/10.5281/zenodo.23910491).
 
 ## Abstract
 
@@ -179,7 +179,7 @@ Ille et al. supplied the fixed Boltz atlas prediction and reported atlas-wide co
 
 ### 4.3 Reproducibility and reuse value
 
-The release candidate connects claims to manuscript locations, canonical full-precision CSVs, source-coordinate hashes, masks, residue correspondence and fresh verification outputs. It preserves failed qualification, unrun screens and the historical transcription correction. A reader can independently replay the fixed-coordinate RMSDs and selected deterministic descriptors using the distributed small scripts and inputs. This enables examination of the reported reference dependence without implying that prediction generation or every third-party engine can be fully reproduced from this package.
+The reproducibility package connects claims to manuscript locations, canonical full-precision CSVs, source-coordinate hashes, masks, residue correspondence and fresh verification outputs. It preserves failed qualification, unrun screens and the historical transcription correction. A reader can independently replay the fixed-coordinate RMSDs and selected deterministic descriptors using the distributed small scripts and inputs. This enables examination of the reported reference dependence without implying that prediction generation or every third-party engine can be fully reproduced from this package.
 
 ## 5. Limitations
 
@@ -197,9 +197,9 @@ For the selected fixed Boltz-2 MPC1L–MPC2 structure, 73-residue interface Cα 
 
 ## Declarations
 
-**Data and code availability.** This pre-release candidate contains the Technical Note, SI, Figure 1, frozen data and executable verification/production sources. Public repository name: boltz2-mpc-reference-structure-comparison. Zenodo version DOI 10.5281/zenodo.23910491 has been reserved for the unpublished draft; no public GitHub repository, release tag or commit is asserted to exist. The DOI may not resolve until Zenodo publication, which remains a separate author-authorized step. The package README and reproducibility guide specify the successfully tested commands and distinguish coordinate replay from historical engine inspection.
+**Data and code availability.** The version 1.0.0 distribution includes this Technical Note, Supplementary Information, Figure 1, frozen input coordinates and numerical results, and executable verification/production sources. Zenodo version DOI: 10.5281/zenodo.23910491 (https://doi.org/10.5281/zenodo.23910491). Repository: https://github.com/shomiyazaki-ai/boltz2-mpc-reference-structure-comparison. The package README and reproducibility guide specify the tested commands and distinguish coordinate replay from historical third-party engine inspection. The corresponding GitHub release commit is recorded separately from the immutable repository payload to avoid self-referential checksums.
 
-**Source provenance and licensing.** Experimental coordinates are credited to Sichrovsky et al. and wwPDB, under CC0. The atlas CIF retains its fixed-commit MIT notice. The AFDB/NVIDIA CIF and derived copies retain CC-BY-4.0 attribution and source usage conditions. Third-party papers, SI PDFs, validation-report originals, model weights and MSAs are excluded. The author has confirmed ownership/publication authority for the author-created work and approved CC BY 4.0 for original text, figures and eligible author-created data presentations, and MIT for original scripts. These choices apply to the intended public release, do not override third-party rights, and do not imply that this candidate has been externally published. See LICENSE_SCOPE and RIGHTS_MANIFEST.
+**Source provenance and licensing.** Experimental coordinates are credited to Sichrovsky et al. and wwPDB, under CC0. The atlas CIF retains its fixed-commit MIT notice. The AFDB/NVIDIA CIF and derived copies retain CC-BY-4.0 attribution and source usage conditions. Third-party papers, SI PDFs, validation-report originals, model weights and MSAs are excluded. The author has confirmed ownership/publication authority for the author-created work and approved CC BY 4.0 for original text, figures and eligible author-created data presentations, and MIT for original scripts. The stated licenses apply to author-created material in the distribution, without overriding third-party rights; exact scope and retained notices are specified in LICENSE_SCOPE and RIGHTS_MANIFEST.
 
 **AI-assisted research disclosure.** ChatGPT assisted research planning, coding, source organization, analysis, drafting, figure/table preparation and consistency checking. Computational verification in this production is disclosed separately from historical execution. AI is not an author; the named author retains responsibility for scientific interpretation, source attribution and final release decisions.
 

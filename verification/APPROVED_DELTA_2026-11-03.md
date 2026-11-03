@@ -1,3 +1,5 @@
+> **Historical approval snapshot:** References to then-pending remote steps describe the time of that approval, not the current external release state.
+
 # Approved limited pre-release revision — 3 November 2026
 
 Changes authorized by the author: add Passaro et al. (Boltz-2) and Evans et al. (AlphaFold-Multimer) citations; replace pending Funding and Competing interests text with exact approved declarations; confirm affiliation, ownership/publication authority and intended CC BY 4.0 / MIT scope.

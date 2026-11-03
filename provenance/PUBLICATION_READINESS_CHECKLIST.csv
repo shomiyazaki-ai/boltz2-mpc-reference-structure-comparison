@@ -10,7 +10,7 @@ Proposed author licenses,AUTHOR APPROVED 2026-11-03,Author approves CC BY 4.0 or
 Funding declaration,AUTHOR APPROVED 2026-11-03,No specific funding was received for this independent study.
 Competing interests,AUTHOR APPROVED 2026-11-03,The author declares no competing interests.
 Affiliation / contact,AUTHOR APPROVED 2026-11-03,"Author confirms Independent researcher, Tokyo, Japan; published contact retained as supplied"
-Repository / release tag / commit,PENDING FUTURE PUBLICATION,Name fixed; no repository created; no tag or commit asserted
-Zenodo version DOI,RESERVED BY AUTHOR / NOT PUBLISHED,Author supplied reserved version DOI 10.5281/zenodo.23910491; verify draft identity/metadata at Zenodo; do not equate reservation with publication
-Final identifier embedding / hashes,REBUILD IN THIS DOI ROUND,"Insert 10.5281/zenodo.23910491 in documents/metadata; regenerate PDFs, manifest and SHA256; actual GitHub commit/tag remain pending"
-External publication,NOT AUTHORIZED IN THIS TASK,"Author reserved Zenodo DOI before this task; this task performs no external upload, push, release or publication"
+Repository / release tag / commit,VERIFY AGAINST EXTERNAL RELEASE RECEIPT,Repository verified in GitHub staging; tag v1.0.0 and final commit must be checked against the external receipt after fixation
+Zenodo version DOI,DOI ASSIGNED TO VERSION 1.0.0,Version DOI 10.5281/zenodo.23910491 confirmed in author-provided Zenodo preview; confirm published record after separate authorization
+Final identifier embedding / hashes,VERSION IDENTIFIER EMBEDDED / VERIFY FINAL RELEASE HASHES,"Version DOI 10.5281/zenodo.23910491 embedded; regenerated PDFs, manifest, checksums; final Zenodo file comparison still required"
+External publication,VERIFY EXTERNALLY,After explicit author authorization check GitHub tag/public visibility and Zenodo published DOI; this local record does not assert that those external steps occurred

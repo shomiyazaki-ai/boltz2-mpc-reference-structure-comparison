@@ -1,3 +1,5 @@
+> **Historical QC snapshot (pre-DOI/remote staging):** Statements below about uncreated repositories, reserved DOI or pending status describe the earlier assessment date; they are not the publication status of this sealed release payload. Refer to the current external release receipt for remote state.
+
 # C01 A+B pre-release computational QC
 
 Candidate: Technical Note v1.0.0, 3 November 2026. This is a bounded computational/documentary QC within one AI-assisted production session, not independent experimental validation or a claim of external human review.

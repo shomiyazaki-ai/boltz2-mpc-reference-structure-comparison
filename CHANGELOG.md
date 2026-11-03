@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0 — publication candidate, 3 November 2026
+## 1.0.0 — release preparation, 3 November 2026
 
 First integrated C01 A+B candidate: Primary fixed Boltz/reference comparison and Exploratory fixed AF comparison; no public release yet. Canonical70+35 RMSD values and source inputs are unchanged. Fresh production added portable replay, independent quaternion verification, the Technical Note/SI, two-panel Figure1, full evidence mapping and scoped rights/release documentation.
 
@@ -13,3 +13,7 @@ Added method-development references for Boltz-2 (Passaro et al.) and AlphaFold-M
 ### Reserved DOI insertion (3 November 2026)
 
 The author provided Zenodo reserved version DOI `10.5281/zenodo.23910491`. The identifier was inserted into Technical Note/SI, README, CITATION, release and Zenodo metadata. The numerical data, mask, Figure 1, and scientific interpretations are unchanged. Zenodo and GitHub are not published by this step; GitHub release tag/commit remain pending.
+
+### Publication-neutral release payload (3 November 2026)
+
+Converted manuscript/SI headings, DOI/footer text, README, citation metadata, licensing notes and manifest to publication-neutral version 1.0.0 language. Corrected the former staging assumption that no GitHub repository existed. Preserved the reserved DOI and actual scientific data, masks and Figure 1. Re-sealed after independent checks. Real Git commit/tag and external publication status are maintained outside the tagged payload, not inferred from this changelog.

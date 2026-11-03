@@ -47,7 +47,7 @@ class NumberCanvas(canvas.Canvas):
  def save(self):
   total=len(self._states)
   for state in self._states:
-   self.__dict__.update(state);self.setStrokeColor(HexColor('#CDD7E0'));self.setLineWidth(.5);self.line(44,35,A4[0]-44,35);self.setFont('C01',7.1);self.setFillColor(gray);self.drawString(44,23,'C01 A+B | v1.0.0 | Zenodo DOI 10.5281/zenodo.23910491 (reserved)');self.drawRightString(A4[0]-44,23,str(self._pageNumber)+' / '+str(total));super().showPage()
+   self.__dict__.update(state);self.setStrokeColor(HexColor('#CDD7E0'));self.setLineWidth(.5);self.line(44,35,A4[0]-44,35);self.setFont('C01',7.1);self.setFillColor(gray);self.drawString(44,23,'C01 A+B | v1.0.0 | Zenodo DOI 10.5281/zenodo.23910491');self.drawRightString(A4[0]-44,23,str(self._pageNumber)+' / '+str(total));super().showPage()
   super().save()
 def render(src,out):
  lines=src.read_text().splitlines();story=[];i=0;is_si='Supplementary' in src.name;intable=False;tableid=None
@@ -108,7 +108,7 @@ def render(src,out):
   elif tableid and line.startswith('*'):style=styles['CCaption']
   elif re.match(r'^\[\d+\]',line):style=styles['CReference']
   story.append(Paragraph(text,style))
- doc=SimpleDocTemplate(str(out),pagesize=A4,rightMargin=44,leftMargin=44,topMargin=43,bottomMargin=48,title=('Supplementary Information: ' if is_si else '')+'Experimental-Reference Sensitivity of a Fixed Boltz-2 MPC1L–MPC2 Complex Prediction, with an Exploratory AlphaFold Structural Comparison',author='Sho Miyazaki',subject='C01 A+B Technical Note v1.0.0, reserved Zenodo DOI 10.5281/zenodo.23910491; unpublished',creator='C01 reproducible ReportLab builder')
+ doc=SimpleDocTemplate(str(out),pagesize=A4,rightMargin=44,leftMargin=44,topMargin=43,bottomMargin=48,title=('Supplementary Information: ' if is_si else '')+'Experimental-Reference Sensitivity of a Fixed Boltz-2 MPC1L–MPC2 Complex Prediction, with an Exploratory AlphaFold Structural Comparison',author='Sho Miyazaki',subject='C01 A+B Technical Note v1.0.0, Zenodo DOI 10.5281/zenodo.23910491',creator='C01 reproducible ReportLab builder')
  doc.build(story,canvasmaker=NumberCanvas)
 for name in ['C01_AB_Technical_Note_v1.0.0','C01_AB_Supplementary_Information_v1.0.0']:
  src=ROOT/'manuscript'/f'{name}.md';dest=args.out_dir/f'{name}.pdf';render(src,dest);print(str(dest))

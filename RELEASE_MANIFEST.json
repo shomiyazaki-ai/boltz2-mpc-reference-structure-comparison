@@ -4,15 +4,15 @@
   "document_type": "Technical Note",
   "version": "1.0.0",
   "candidate_date_JST": "2026-11-03",
-  "publication_status": "LOCAL_CANDIDATE_NOT_PUBLISHED",
+  "artifact_status": "RELEASE_PAYLOAD_VERSION_1_0_0",
   "scope": "C01 A+B only",
   "github_repository_name": "boltz2-mpc-reference-structure-comparison",
   "intended_github_tag": "v1.0.0",
-  "github_tag_status": "not_created",
+  "github_tag_record": "EXTERNAL_RELEASE_RECEIPT",
   "github_release_commit": null,
   "zenodo_version_doi": "10.5281/zenodo.23910491",
-  "zenodo_doi_status": "RESERVED_NOT_PUBLISHED",
-  "author_license_approval": "approved 2026-11-03 for future release; no public release yet; source-specific upstream terms retained",
+  "zenodo_doi_reference": "VERSION_DOI",
+  "author_license_approval": "approved 2026-11-03; original materials licensed by scope; source-specific upstream terms retained",
   "packaging_equivalence": "GitHub candidate ZIP and Zenodo reproducibility ZIP contain the same sealed root payload; PDFs intentionally inside for standalone README links",
   "excluded_from_this_file_list": [
     "RELEASE_MANIFEST.json",
@@ -21,7 +21,7 @@
     "containing git commit SHA",
     "reproduction outputs and bytecode"
   ],
-  "external_receipt_rule": "Actual future release commit/tag/DOI and outer archive hashes must be recorded outside their containing immutable payload; see provenance/PUBLICATION_PROCEDURE.md",
+  "external_receipt_rule": "Actual release commit/tag and outer archive hashes are recorded outside their containing immutable payload; see provenance/PUBLICATION_PROCEDURE.md",
   "files": [
     {
       "path": ".gitignore",
@@ -30,18 +30,18 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1631,
-      "sha256": "d2289704a849150f33f1cf2da55fe7b3061bdbe05eaac80e896fa524f7a4cfa2"
+      "bytes": 2158,
+      "sha256": "654bcee9f7c106f203bd42ce6e5ce0dc53d0520111c43d427e658b8194cbb641"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1053,
-      "sha256": "a636a6fb36111ebe279788acd6a385eaf3ce0efe2a09fc7c70e94462893e47e4"
+      "bytes": 954,
+      "sha256": "583479cc199d60108a5e643843b40a51a1ad4083776bf5b6c7f1c7991f687e2c"
     },
     {
       "path": "README.md",
-      "bytes": 14139,
-      "sha256": "2eabc649acba76e80442e3fb1794a5470a74313316170a77a11a53d8c8aa9223"
+      "bytes": 14186,
+      "sha256": "b24f03e364f0dc06c121ba5f15b83f2a5dcea43d40218653971a9695f5648f7b"
     },
     {
       "path": "code/archived/AF_RMSD_original.py",
@@ -95,8 +95,8 @@
     },
     {
       "path": "code/build_documents.py",
-      "bytes": 8462,
-      "sha256": "d9d68eed521b02be3ea29d3de83d3d708a662849313e00a4e67cb105072e5193"
+      "bytes": 8429,
+      "sha256": "4ed368797844dadd240a4503a642beee7fc269dffdfb8123f00235d0b95658ea"
     },
     {
       "path": "code/cif_geometry.py",
@@ -120,13 +120,13 @@
     },
     {
       "path": "code/seal_candidate.py",
-      "bytes": 2444,
-      "sha256": "264ceae24d171c3dcbff736e21039864d2f0e7a83e6049e515dec17b81c6bc7d"
+      "bytes": 2427,
+      "sha256": "f39d12e5e32f208d978367f544638946c2b707f6f9883af7b92b933c2c17a6ad"
     },
     {
       "path": "code/verify_distribution.py",
-      "bytes": 8567,
-      "sha256": "1892f73d5b990c29b65258ce959937433e884d186985d289f250958e0ce17b27"
+      "bytes": 8569,
+      "sha256": "f49635d3ce697769c49af48c38224bc38cb71fa9e49c030ec1678af2eec82a9a"
     },
     {
       "path": "code/verify_independent.py",
@@ -395,23 +395,23 @@
     },
     {
       "path": "manuscript/C01_AB_Supplementary_Information_v1.0.0.md",
-      "bytes": 48592,
-      "sha256": "e3afe49e7e28e4c8ddd8d5b86e7e240356ff68859edc94bb0ed4d9eb6999f7af"
+      "bytes": 48354,
+      "sha256": "ce0b95dec332d557eef4cfa819b8ddc990c011d08126889f962c65bd3f9115b4"
     },
     {
       "path": "manuscript/C01_AB_Supplementary_Information_v1.0.0.pdf",
-      "bytes": 100435,
-      "sha256": "55459b5ec2224daedd8ca1b7cf50a75206045a43b653925d2ecc15ea620b06e3"
+      "bytes": 100092,
+      "sha256": "79aabcb82376be074b4b2f6d393fe47bddc27d7e4b6470da0cb3a973e012fbc5"
     },
     {
       "path": "manuscript/C01_AB_Technical_Note_v1.0.0.md",
-      "bytes": 28919,
-      "sha256": "3c3deb68d2de3253ba1b35c99eff442e0a4dbce97ad322a27bd59ff671feefc9"
+      "bytes": 28926,
+      "sha256": "ef2c40f5f7576bf6403a14541491e8222d328d4aafac384c684fbc43925b3ba3"
     },
     {
       "path": "manuscript/C01_AB_Technical_Note_v1.0.0.pdf",
-      "bytes": 300185,
-      "sha256": "6ac0191dd59dc52b3592371aaeac5b5975ae7871afc03724569f2d412bab2d9b"
+      "bytes": 300061,
+      "sha256": "7de7e48f853877c93e2a898432e7ae52ef12281482f205c10e4e51718ea722b8"
     },
     {
       "path": "manuscript/generated_tables.md",
@@ -435,8 +435,8 @@
     },
     {
       "path": "provenance/LICENSE_SCOPE.md",
-      "bytes": 3423,
-      "sha256": "5066a8d5590a00a0ac52ce2a7f8ce15c16ab3ac71e6b1f3f80cede0fcc376d75"
+      "bytes": 3351,
+      "sha256": "586e94a46f606fb81cf11209ea33f9a5e76adfdf476842be477b3a52704c8d93"
     },
     {
       "path": "provenance/PAE_DECISION.json",
@@ -445,13 +445,13 @@
     },
     {
       "path": "provenance/PUBLICATION_PROCEDURE.md",
-      "bytes": 2884,
-      "sha256": "60341392fd222ae562e0b6d7b8108a0efba627397547d88fc119666d980d5e4d"
+      "bytes": 2491,
+      "sha256": "0159f2918f842bc4848c77e76dd69a4fa784c46642b569d01caa56667da0f215"
     },
     {
       "path": "provenance/PUBLICATION_READINESS_CHECKLIST.csv",
-      "bytes": 2080,
-      "sha256": "272eec9f285fa938ee4c6f8087a52d6235b68bd396717ab95434e730d10cf6e3"
+      "bytes": 2212,
+      "sha256": "88d14ab04c760394db3fd9d87d7b553083563f940cb9e0f5c13dc73cdef6204e"
     },
     {
       "path": "provenance/Primary_Protocol_Frozen.md",
@@ -465,8 +465,8 @@
     },
     {
       "path": "provenance/RIGHTS_MANIFEST.csv",
-      "bytes": 2123,
-      "sha256": "9b810bdd4a20e1e4ceb54ab9303038dd3f873555d7cb614c8b232b0a392383dd"
+      "bytes": 2045,
+      "sha256": "ac6b346095f5657d7b045d38d084bb150fe0fbb76cce9ac30cc069d2478eaed4"
     },
     {
       "path": "provenance/SOURCE_ACCESS_LOG.csv",
@@ -515,8 +515,8 @@
     },
     {
       "path": "verification/APPROVED_DELTA_2026-11-03.md",
-      "bytes": 815,
-      "sha256": "f95a4a5dab65967a15fe977ace24e8954b64e1884b46df566f724814e0369ba7"
+      "bytes": 968,
+      "sha256": "5370f8e48a59d1e9c06fd07d055c36e0dfecfcd244087a4f2a3d5b427879c9d4"
     },
     {
       "path": "verification/ERRATUM.md",
@@ -525,8 +525,8 @@
     },
     {
       "path": "verification/PRE_RELEASE_QC.md",
-      "bytes": 3375,
-      "sha256": "99da8a2227bfebae43c14169c3d2fc230fdc070cae50aba5e18e2b1af1b32786"
+      "bytes": 3679,
+      "sha256": "36d7954dfc1467475823aefa2162b1a3b44ef7adf77d2e10e088b0ed700683f8"
     },
     {
       "path": "verification/analysis_status.csv",

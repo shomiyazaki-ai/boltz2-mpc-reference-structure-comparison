@@ -1,11 +1,11 @@
-# Rights and license scope — publication candidate
+# Rights and license scope — version 1.0.0
 
-No external release or irreversible license grant is made by preparing this local candidate. The author has confirmed ownership/publication authority for original materials and approved the intended license choices. A public release remains a separate authorized action. This file is not a blanket license over the repository.
+The author has confirmed ownership/publication authority for original materials and approved the license choices specified below. This file defines the rights and scope of the version 1.0.0 distribution; it is not a blanket relicense of third-party material.
 
-| Material | Scope / rights basis | Candidate action |
+| Material | Scope / rights basis | Release handling |
 | --- | --- | --- |
-| Author-created manuscript, SI, Figure 1 and explanatory documentation | Author-approved CC BY 4.0 for intended release | Approval recorded; attribute Sho Miyazaki; release not yet performed |
-| Author-created analysis/verification/production scripts | Author-approved MIT for intended release | Author confirmed publication authority; retain upstream and third-party notices |
+| Author-created manuscript, SI, Figure 1 and explanatory documentation | Author-approved CC BY 4.0 for original material | Attribute Sho Miyazaki and apply CC BY 4.0 to author-created expression |
+| Author-created analysis/verification/production scripts | Author-approved MIT for original scripts | Author confirmed publication authority; retain upstream and third-party notices |
 | Author-created numerical calculations and selected tables | Author-approved CC BY 4.0 for protectable expression; underlying factual data remain subject to their source terms | Do not claim exclusive rights over source coordinates or facts |
 | Four original wwPDB experimental CIFs and their coordinate exports | CC0 1.0 archive data; original structure authors credited | Preserve entry IDs, revisions, source URLs and original hashes |
 | Fixed Atlas Boltz CIF and its exports/derived H snapshot | Fixed-repository MIT license; no file-specific contrary notice found in the retrieved CIF | Exact upstream MIT notice in licenses/Atlas_MIT.txt, fixed commit and credit retained |

@@ -17,8 +17,8 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 lines=(ROOT/'SHA256SUMS.txt').read_text().splitlines()
 for i,s in enumerate(lines):
  digest,path=s.split('  ',1);f=ROOT/path;ck('sha_'+path,f.is_file() and sha(f)==digest)
-manifest=json.loads((ROOT/'RELEASE_MANIFEST.json').read_text());ck('candidate_scope',manifest['publication_status']=='LOCAL_CANDIDATE_NOT_PUBLISHED' and manifest['scope']=='C01 A+B only')
-ck('no_fabricated_identifiers',manifest['zenodo_version_doi']=='10.5281/zenodo.23910491' and manifest['zenodo_doi_status']=='RESERVED_NOT_PUBLISHED' and manifest['github_release_commit'] is None and manifest['github_tag_status']=='not_created')
+manifest=json.loads((ROOT/'RELEASE_MANIFEST.json').read_text());ck('candidate_scope',manifest['artifact_status']=='RELEASE_PAYLOAD_VERSION_1_0_0' and manifest['scope']=='C01 A+B only')
+ck('no_fabricated_identifiers',manifest['zenodo_version_doi']=='10.5281/zenodo.23910491' and manifest['zenodo_doi_reference']=='VERSION_DOI' and manifest['github_release_commit'] is None and manifest['github_tag_record']=='EXTERNAL_RELEASE_RECEIPT')
 for row in manifest['files']:
  f=ROOT/row['path'];ck('manifest_'+row['path'],f.is_file() and f.stat().st_size==row['bytes'] and sha(f)==row['sha256'])
 for r in read('provenance/SOURCE_MANIFEST.csv'):
@@ -69,7 +69,7 @@ links=re.findall(r'!?\[[^\]]*\]\(([^)]+)\)',readme)
 for link in links:
  if re.match('https?://|mailto:',link):continue
  path=link.split('#',1)[0];ck('README_link_'+path,(ROOT/path).exists())
-ck('no_future_repository_url','https://github.com/shomiyazaki-ai/boltz2-mpc-reference-structure-comparison' not in readme)
+ck('repository_identity', 'https://github.com/shomiyazaki-ai/boltz2-mpc-reference-structure-comparison' in readme)
 # All claim-map file references resolve; numeric row descriptions are retained as selectors.
 for r in read('provenance/CLAIM_EVIDENCE_MAP.csv'):
  for key in ['canonical_evidence','verification_evidence','source_or_protocol']:
@@ -79,5 +79,5 @@ ck('CFF_parse',yaml.safe_load((ROOT/'CITATION.cff').read_text())['cff-version']=
 ck('rights_files',all((ROOT/p).is_file() for p in ['provenance/RIGHTS_MANIFEST.csv','provenance/LICENSE_SCOPE.md','provenance/licenses/Atlas_MIT.txt','provenance/THIRD_PARTY_NOTICES.md']))
 ck('no_thirdparty_PDF',(set(p.name for p in (ROOT/'manuscript').glob('*.pdf'))=={'C01_AB_Technical_Note_v1.0.0.pdf','C01_AB_Supplementary_Information_v1.0.0.pdf'}) and len(list(ROOT.rglob('*.pdf')))==2)
 with (out/'distribution_checks.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=list(checks[0]));w.writeheader();w.writerows(checks)
-s={'status':'PASS','checks':len(checks),'declared_SHA_files':len(lines),'canonical_metrics':105,'direct_numeric_cells':len(read('data/derived/NUMERIC_PRESENTATION_MAP.csv')),'figure_rows':len(fig),'relative_README_links_checked':sum(not re.match('https?://|mailto:',s) for s in links),'claim_rows':len(read('provenance/CLAIM_EVIDENCE_MAP.csv')),'PDF_pages':pdfpages,'visual_inspection':'separate rendered-page review; not certified by this script','author_declarations_and_licenses':'author approved 2026-11-03; DOI 10.5281/zenodo.23910491 reserved but unpublished; GitHub tag/commit pending'}
+s={'status':'PASS','checks':len(checks),'declared_SHA_files':len(lines),'canonical_metrics':105,'direct_numeric_cells':len(read('data/derived/NUMERIC_PRESENTATION_MAP.csv')),'figure_rows':len(fig),'relative_README_links_checked':sum(not re.match('https?://|mailto:',s) for s in links),'claim_rows':len(read('provenance/CLAIM_EVIDENCE_MAP.csv')),'PDF_pages':pdfpages,'visual_inspection':'separate rendered-page review; not certified by this script','author_declarations_and_licenses':'author approved 2026-11-03; DOI 10.5281/zenodo.23910491 fixed; GitHub tag/commit recorded externally after fixation'}
 (out/'distribution_summary.json').write_text(json.dumps(s,indent=2)+'\n');print(json.dumps(s))

@@ -1,9 +1,9 @@
 # Experimental-Reference Sensitivity of a Fixed Boltz-2 MPC1L–MPC2 Complex Prediction, with an Exploratory AlphaFold Structural Comparison
 
-**Technical Note · v1.0.0 publication candidate · 3 November 2026**  
+**Technical Note · v1.0.0 · 3 November 2026**  
 **Sho Miyazaki** · Independent researcher, Tokyo, Japan  
 Repository name: `boltz2-mpc-reference-structure-comparison`  
-**Zenodo version DOI (reserved, not published): [10.5281/zenodo.23910491](https://doi.org/10.5281/zenodo.23910491).** Public GitHub tag and release commit: not yet created. This is a local release candidate; DOI reservation does not constitute publication.
+**Zenodo version DOI: [10.5281/zenodo.23910491](https://doi.org/10.5281/zenodo.23910491).** Repository: [https://github.com/shomiyazaki-ai/boltz2-mpc-reference-structure-comparison](https://github.com/shomiyazaki-ai/boltz2-mpc-reference-structure-comparison). The version 1.0.0 payload is identified by the distribution checksums; GitHub release commit and tag details are recorded separately after fixation.
 
 ## At a glance
 
@@ -71,7 +71,7 @@ For the selected Boltz coordinates, agreement was reference-dependent: RMSD was 
 
 ## Reproduce and verify
 
-Extract the candidate ZIP and open a terminal in its `boltz2-mpc-reference-structure-comparison` root. The permitted six original CIFs are included, so replay does not require a live upstream download. Source hashes identify the frozen versions; a current replacement is not automatically equivalent.
+Extract the reproducibility ZIP and open a terminal in its `boltz2-mpc-reference-structure-comparison` root. The permitted six original CIFs are included, so replay does not require a live upstream download. Source hashes identify the frozen versions; a current replacement is not automatically equivalent.
 
 The following commands succeeded from a clean extracted package under Linux Python 3.12.14. Exact installed dependency versions are in [requirements.txt](requirements.txt); the [environment record](verification/production_environment.json) and [reproduction guide](provenance/REPRODUCIBILITY_GUIDE.md) state what was and was not tested. The pip command succeeded with these dependencies already installed; a fresh network installation or Windows run was not tested here.
 
@@ -95,7 +95,7 @@ General predictor performance, a Boltz-versus-AlphaFold benchmark ranking, an in
 
 Primary scientific sources are [Sichrovsky et al.](https://doi.org/10.1126/sciadv.adw1489), [Ille et al. v3](https://www.biorxiv.org/content/10.1101/2025.07.03.663068v3), the [fixed atlas source](https://github.com/structural-interactome/human-interactome/tree/dc55acabb3da7f233def7a0668d86e1c0ecb8e8e), [AFDB entry](https://alphafold.ebi.ac.uk/entry/AF-0000000204012512), and wwPDB [9GIX](https://www.rcsb.org/structure/9GIX), [9GIV](https://www.rcsb.org/structure/9GIV), [9GIW](https://www.rcsb.org/structure/9GIW), [9GIY](https://www.rcsb.org/structure/9GIY).
 
-Original experimental CIFs are CC0; the pinned atlas CIF retains its MIT notice; the AFDB/NVIDIA CIF and derivatives retain CC BY 4.0 attribution and indicated changes. Original source licenses do not become a blanket repository license. The author has confirmed rights to publish the original materials and approved CC BY 4.0 for original documents/figures/eligible data presentations and MIT for original scripts for the intended future release. This candidate is not yet publicly released. See [LICENSE_SCOPE](provenance/LICENSE_SCOPE.md), [RIGHTS_MANIFEST](provenance/RIGHTS_MANIFEST.csv), [source notices](provenance/THIRD_PARTY_NOTICES.md) and [upstream identity check](provenance/UPSTREAM_CHECK.json).
+Original experimental CIFs are CC0; the pinned atlas CIF retains its MIT notice; the AFDB/NVIDIA CIF and derivatives retain CC BY 4.0 attribution and indicated changes. Original source licenses do not become a blanket repository license. The author has confirmed rights to publish the original materials and approved CC BY 4.0 for original documents/figures/eligible data presentations and MIT for original scripts in this distribution. See [LICENSE_SCOPE](provenance/LICENSE_SCOPE.md), [RIGHTS_MANIFEST](provenance/RIGHTS_MANIFEST.csv), [source notices](provenance/THIRD_PARTY_NOTICES.md) and [upstream identity check](provenance/UPSTREAM_CHECK.json).
 
 Third-party papers/SI, original validation reports, model checkpoints and MSAs are not included. Stored PAE was not needed for any published endpoint and is omitted with [source identity and rationale](provenance/PAE_DECISION.json). The two PDFs are deliberately retained in the reproducibility ZIP as well as the planned Zenodo top level, keeping all README document links valid when the ZIP is extracted alone.
 
@@ -105,12 +105,12 @@ The fixed Boltz-2 model is sourced from the Human PPI Atlas, while the underlyin
 
 ## Citation and versioning
 
-**Candidate citation:** Miyazaki, S. (2026). *Experimental-Reference Sensitivity of a Fixed Boltz-2 MPC1L–MPC2 Complex Prediction, with an Exploratory AlphaFold Structural Comparison* (Version 1.0.0) [Technical Note]. Zenodo. Reserved version DOI: 10.5281/zenodo.23910491 (unpublished draft; not yet citable as a public release).
+**Suggested citation:** Miyazaki, S. (2026). *Experimental-Reference Sensitivity of a Fixed Boltz-2 MPC1L–MPC2 Complex Prediction, with an Exploratory AlphaFold Structural Comparison* (Version 1.0.0) [Technical Note]. Zenodo. https://doi.org/10.5281/zenodo.23910491.
 
-[CITATION.cff](CITATION.cff) and [RELEASE_MANIFEST.json](RELEASE_MANIFEST.json) are candidate metadata. Reserved Zenodo version DOI `10.5281/zenodo.23910491` is now fixed in these draft materials. Intended public tag `v1.0.0` and its actual commit must still be fixed during a separately authorized publication step. No nonexistent future repository/release URL is linked here. The [release procedure](provenance/PUBLICATION_PROCEDURE.md) explains DOI insertion, rebuild/QC, payload checksums, tag fixation and the external commit receipt without self-hashing cycles.
+[CITATION.cff](CITATION.cff) supplies the preferred citation; [RELEASE_MANIFEST.json](RELEASE_MANIFEST.json) and [SHA256SUMS.txt](SHA256SUMS.txt) define the version 1.0.0 payload. The Zenodo version DOI is `10.5281/zenodo.23910491`. The release commit and tag are recorded in an **external release receipt** after they are fixed; they are intentionally not embedded in this repository payload. The [release procedure](provenance/PUBLICATION_PROCEDURE.md) explains this non-circular identity method.
 
 ## AI assistance and contact
 
 ChatGPT assisted planning, coding, source/evidence organization, interpretation, drafting and production/QC. The named author retains final scientific and release responsibility; AI is not an author. See the full [AI disclosure](provenance/AI_ASSISTANCE.md). No external human review or new independent engine run is implied by this computational QC.
 
-Contact: Sho Miyazaki, shomiyazaki98@gmail.com. Affiliation, ownership/publication authority, funding and competing interests, and the intended author-created-material licenses have been approved. The [readiness checklist](provenance/PUBLICATION_READINESS_CHECKLIST.csv) records that the Zenodo DOI is reserved while GitHub tag/commit and final publication checks remain unresolved.
+Contact: Sho Miyazaki, shomiyazaki98@gmail.com. Affiliation, ownership/publication authority, funding and competing interests, and the intended author-created-material licenses have been approved. The [release procedure](provenance/PUBLICATION_PROCEDURE.md) and [readiness checklist](provenance/PUBLICATION_READINESS_CHECKLIST.csv) retain the provenance and pre-deposit verification requirements. The release receipt records the final commit/tag and cross-platform file comparison.

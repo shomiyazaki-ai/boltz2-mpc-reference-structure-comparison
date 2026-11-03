@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "C01 A+B Technical Note publication candidate. Zenodo DOI 10.5281/zenodo.23910491 reserved but not yet published; GitHub tag/commit pending. Do not cite as already released."
+message: "Please cite the version 1.0.0 Zenodo Technical Note using the preferred citation below."
 type: dataset
 title: "Experimental-Reference Sensitivity of a Fixed Boltz-2 MPC1L–MPC2 Complex Prediction, with an Exploratory AlphaFold Structural Comparison"
 version: "1.0.0"
@@ -19,4 +19,4 @@ preferred-citation:
   version: "1.0.0"
   doi: "10.5281/zenodo.23910491"
   url: "https://doi.org/10.5281/zenodo.23910491"
-  notes: "Technical Note; reserved DOI, unpublished draft. GitHub version identifiers pending; not a public release."
+  notes: "Technical Note, version 1.0.0; supplemental data, code, and provenance accompany the record."
