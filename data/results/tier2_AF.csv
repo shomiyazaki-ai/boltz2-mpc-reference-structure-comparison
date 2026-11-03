@@ -1,0 +1,2 @@
+structure,donor_chain,donor_res,donor_resname,donor_atom,hydrogen,acceptor_chain,acceptor_res,acceptor_resname,acceptor_atom,da_distance_A,dha_angle_deg
+AF,B,68,SER,OG,HG,A,45,ASP,OD2,2.560530057517591,168.45869241244807

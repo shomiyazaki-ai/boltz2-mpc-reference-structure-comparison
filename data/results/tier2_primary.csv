@@ -1,0 +1,5 @@
+structure,donor_chain,donor_res,donor_resname,donor_atom,hydrogen,acceptor_chain,acceptor_res,acceptor_resname,acceptor_atom,da_distance_A,dha_angle_deg
+Boltz,A,54,SER,OG,HG,B,59,ASP,OD2,2.77510673666617,154.54959503871277
+Boltz,B,68,SER,OG,HG,A,45,ASP,OD2,2.3393841333297005,167.89461632521363
+9GIV,B,66,LYS,NZ,HZ2,A,51,GLU,OE1,2.7766187920198733,164.64423389199192
+9GIV,B,68,SER,OG,HG,A,45,ASP,OD2,2.6530220559187625,170.6978278887379

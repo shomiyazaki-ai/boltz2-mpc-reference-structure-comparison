@@ -1,0 +1,6 @@
+pdb,sha256,n_atoms,class_counts,unknown_or_bad,zero_radii,max_radius_abs_diff_A,default_AB_SASA_A2,explicit_protor_AB_SASA_A2,area_abs_diff_A2,status
+9GIV_normalized_AB.pdb,931f2d5aae343e2e9fd7bf856e3e3663ef03130ecc5177f6133faf319af9202e,1628,"{""Apolar"": 1072, ""Polar"": 556}",0,0,0.0,12588.425991941676,12588.425991941676,0.0,PASS
+9GIW_normalized_AB.pdb,07bc63e9c98dd17d8cad8f54d33a2680fbb7844110b53a48b9d4ae021ab01875,1662,"{""Apolar"": 1095, ""Polar"": 567}",0,0,0.0,12809.872959242237,12809.872959242237,0.0,PASS
+9GIX_normalized_AB.pdb,ccbdab5f04a9f2d791e789dbdb100d5f3e38f409940ab76ff9cfc9cf0c6aac27,1754,"{""Apolar"": 1152, ""Polar"": 602}",0,0,0.0,14121.913112603772,14121.913112603772,0.0,PASS
+9GIY_normalized_AB.pdb,c663f6d20a42ebe9f0929a4add57469df09f598639eae8ff2d4c75db418e0095,1764,"{""Apolar"": 1159, ""Polar"": 605}",0,0,0.0,13860.979842642357,13860.979842642357,0.0,PASS
+O95563_P0DKB6_Boltz-2_v2-1-1_normalized_AB.pdb,9bf1edf9120dbe7f3caddc24a31c52a8b061dd5d821cf800f9ef4dc81bcf5f50,2070,"{""Apolar"": 1341, ""Polar"": 729}",0,0,0.0,17181.463215641623,17181.463215641623,0.0,PASS

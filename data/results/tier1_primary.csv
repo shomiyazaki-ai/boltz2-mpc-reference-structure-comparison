@@ -1,0 +1,18 @@
+structure,donor_chain,donor_res,donor_resname,donor_atom,acceptor_chain,acceptor_res,acceptor_resname,acceptor_atom,distance_A,source
+9GIV,A,54,SER,OG,B,59,ASP,OD2,2.6621784693556196,original normalized PDB
+9GIV,B,66,LYS,NZ,A,51,GLU,OE1,2.7766244330973624,original normalized PDB
+9GIV,B,68,SER,OG,A,45,ASP,OD2,2.653029312118122,original normalized PDB
+9GIW,A,54,SER,OG,B,59,ASP,OD1,2.532333690135374,original normalized PDB
+9GIW,B,62,ARG,NH1,A,52,ILE,O,2.8975610594495325,original normalized PDB
+9GIW,B,62,ARG,NH1,A,53,ILE,O,2.8846724034839033,original normalized PDB
+9GIW,B,62,ARG,NH2,A,53,ILE,O,2.993032210699008,original normalized PDB
+9GIW,B,66,LYS,NZ,A,51,GLU,OE1,2.73829640846718,original normalized PDB
+9GIW,B,68,SER,OG,A,45,ASP,OD2,2.65749162400465,original normalized PDB
+9GIX,B,82,TRP,NE1,A,31,GLY,O,2.905027899864817,original normalized PDB
+9GIY,B,66,LYS,NZ,A,51,GLU,OE2,2.94178251951513,original normalized PDB
+9GIY,B,68,SER,OG,A,45,ASP,OD2,2.7463338638511487,original normalized PDB
+Boltz,A,54,SER,OG,B,59,ASP,OD1,2.724098535611803,original normalized PDB
+Boltz,A,54,SER,OG,B,59,ASP,OD2,2.7751068000916668,original normalized PDB
+Boltz,B,62,ARG,NH2,A,51,GLU,O,2.841778748452219,original normalized PDB
+Boltz,B,68,SER,OG,A,45,ASP,OD2,2.3393840025932273,original normalized PDB
+Boltz,B,82,TRP,NE1,A,35,SER,OG,2.8371067403829944,original normalized PDB

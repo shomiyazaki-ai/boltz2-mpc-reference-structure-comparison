@@ -1,0 +1,2 @@
+structure,SASA_MPC1L_A2,SASA_MPC2_A2,SASA_complex_A2,delta_SASA_A2,BSA_half_A2,translation_difference_A2,n_atoms_MPC1L,n_atoms_MPC2,n_atoms_complex,radius_bad_count,explicit_vs_default_difference_A2,status
+AF-0000000204012512-model_v1,11383.102486734113,9441.265037363484,18516.065654433583,2308.301869664014,1154.150934832007,2.546585164964199e-11,1062,1008,2070,0,0.0,PASS

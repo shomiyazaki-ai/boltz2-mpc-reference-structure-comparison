@@ -1,0 +1,5 @@
+structure,cation_chain,cation_res,cation_resname,cation_atom,anion_chain,anion_res,anion_resname,anion_atom,distance_A,source
+9GIV,B,66,LYS,NZ,A,51,GLU,OE1,2.7766244330973624,original normalized PDB
+9GIW,B,66,LYS,NZ,A,51,GLU,OE1,2.73829640846718,original normalized PDB
+9GIY,A,56,ARG,NH2,B,59,ASP,OD1,3.002595980136757,original normalized PDB
+9GIY,B,66,LYS,NZ,A,51,GLU,OE2,2.94178251951513,original normalized PDB

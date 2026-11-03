@@ -1,0 +1,5 @@
+structure,donor_chain,donor_res,donor_resname,donor_atom,acceptor_chain,acceptor_res,acceptor_resname,acceptor_atom,distance_A,source
+AF,A,54,SER,OG,B,59,ASP,OD1,2.7324388148406333,original normalized PDB
+AF,A,54,SER,OG,B,59,ASP,OD2,2.8564274878396283,original normalized PDB
+AF,B,62,ARG,NH2,A,51,GLU,O,2.9056819191583463,original normalized PDB
+AF,B,68,SER,OG,A,45,ASP,OD2,2.5605299401718544,original normalized PDB
